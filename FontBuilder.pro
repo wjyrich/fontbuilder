@@ -183,3 +183,11 @@ isEmpty(FREETYPE2CONFIG) {
 }
 OTHER_FILES += fontbuilder_ru.ts \
     fontbuilder_en.ts
+
+target.path = $$PREFIX/bin
+desktop.files = FontBuilder.desktop
+desktop.path = $$PREFIX/share/applications/
+icons.path = $$PREFIX/share/icons/hicolor/apps/
+icons.files = fontbuilder.png
+
+INSTALLS += target desktop icons

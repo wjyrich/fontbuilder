@@ -1,0 +1,11 @@
+[Desktop Entry]
+Categories=Accessibility;Qt;Utility;
+Exec=FontBuilder
+Name=FontBuilder
+Name[zh_CN]=FontBuilder
+Icon=fontbuilder
+StartupNotify=false
+Terminal=false
+Type=Application
+GenericName=FontBuilder
+Version=0.7
